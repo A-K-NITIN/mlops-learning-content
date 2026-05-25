@@ -1,0 +1,9 @@
+
+
+# Local environment file (contains secrets)
+.env
+.vscode
+.vscode/
+# Python cache
+__pycache__/
+

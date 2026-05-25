@@ -1,0 +1,21 @@
+[project]
+name = "mlops-project-template"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Thanvirassif731",email = "thanvirassif731@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.136.3,<0.137.0)",
+    "google-genai (>=2.6.0,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "mlops_project_template", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
